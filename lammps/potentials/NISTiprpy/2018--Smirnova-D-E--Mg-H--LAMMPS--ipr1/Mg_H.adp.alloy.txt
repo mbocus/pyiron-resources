@@ -1,9 +1,9 @@
 Potential for Mg H with rcut 6.30A in ADP format for LAMMPS
 Smirnova D. and Starikov S.
 produced by VASP 5.2 and PotFit
- 2 Mg H 
+ 2 Mg H
 968 0.000982083660807 1195 0.00527527527528 6.29867867868
-12	24.305	3.0	hcp 
+12    24.305    3.0    hcp
 0.0
 -0.01025018
 -0.01843851
@@ -2167,7 +2167,7 @@ produced by VASP 5.2 and PotFit
 3.580245e-08
 4.174628e-09
 0.0
-1	1.008	3.0	bcc 
+1    1.008    3.0    bcc
 0.0
 -0.0234299935637
 -0.046820960264

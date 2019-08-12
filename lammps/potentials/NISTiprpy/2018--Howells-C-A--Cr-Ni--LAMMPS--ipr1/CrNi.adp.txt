@@ -1,9 +1,9 @@
 Developed by Howells et al., Modell. Sim. Mater. Sci. Eng., 26 (2018)
-"Angular-dependent interatomic potential for the binary Ni–Cr system" 
+"Angular-dependent interatomic potential for the binary Ni–Cr system"
 Converted by Ganga P Purja Pun using C++ code on Tue Sep 25 20:13:32 2018
 2 Cr Ni
 10001 1.520560957800000e-03 10001 5.168302000000000e-04 5.168302000000000e+00
-24 5.199610000000000e+01 0.000000000000000e+00 
+24 5.199610000000000e+01 0.000000000000000e+00
  0.000000000000000e+00
  -5.955176169228110e-02
  -1.196636882329164e-01

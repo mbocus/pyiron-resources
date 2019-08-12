@@ -1,9 +1,9 @@
 Potential in ADP format for U-Mo alloy (LAMMPS style) correct version (July 2018)
 S. Starikov et al., Journal of Nuclear Materials (2018)
 produced by VASP and Potfit
- 2 U Mo 
+ 2 U Mo
 974 0.00102774922919 1408 0.0044044044044 6.196996997
-92	238.03	5.8	alpha 
+92    238.03    5.8    alpha
 0.0
 -0.02675654
 -0.05900841
@@ -2386,7 +2386,7 @@ produced by VASP and Potfit
 -9.645693e-07
 -2.420077e-07
 0.0
-45	95.96	3.17	bcc 
+45    95.96    3.17    bcc
 0.0
 -0.0448352191926
 -0.0891674581779

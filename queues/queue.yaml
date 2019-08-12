@@ -1,0 +1,7 @@
+queue_type: SLURM
+queue_primary: victini
+queues:
+  victini: {cores_max: 3072, cores_min: 1, cores_per_node: 36, mem_per_node_max: 89, run_time_max: 259200, script: torque.sh}
+  swalot: {cores_max: 2560, cores_min: 1, cores_per_node: 20, mem_per_node_max: 120, run_time_max: 259200, script: torque.sh}
+  skitty: {cores_max: 2592, cores_min: 1, cores_per_node: 36, mem_per_node_max: 179, run_time_max: 259200, script: torque.sh}
+  golett: {cores_max: 384, cores_min: 1, cores_per_node: 24, mem_per_node_max: 61, run_time_max: 259200, script: torque.sh}

@@ -1,9 +1,9 @@
 Potential for UN vers 6.2 R (modified 14.6.2016),  rcut 6.20A - ADP
 S. Starikov and A. Kuksin and D. Smirnova and V. Tseplyaev, [V. Tseplyaev, S. Starikov, The atomistic simulation of pressure-induced phase transition in uranium mononitride, J. Nucl. Mat. (2016)]
 produced by VASP 5.2 and Potfit
- 2 U N 
+ 2 U N
 973 0.00102880658436 1304 0.00475475475475 6.19544544545
-92	238.03	3.50	bcc 
+92    238.03    3.50    bcc
 0.0
 -0.11871946529
 -0.234657943001
@@ -2281,7 +2281,7 @@ produced by VASP 5.2 and Potfit
 -1.644613e-07
 -4.196864e-08
 0.0
-7	14.007	3.86	hcp 
+7    14.007    3.86    hcp
 0.0
 -0.1895638
 -0.3296653

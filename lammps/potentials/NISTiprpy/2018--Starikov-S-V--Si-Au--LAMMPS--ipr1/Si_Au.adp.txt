@@ -1,9 +1,9 @@
-Potential for  Si-Au  (june 2016) 
+Potential for  Si-Au  (june 2016)
 Starikov S., Lopanitsyna N., Smirnova D. [Comp. Mater. Sci (2018)]
 produced by VASP and PotFit
- 2 Si Au 
+ 2 Si Au
 971 0.00103092783505 1392 0.00445445445445 6.19614614615
-14	28.0855	1	solid 
+14    28.0855    1    solid
 0.0
 0.00929861
 0.01465643
@@ -2367,7 +2367,7 @@ produced by VASP and PotFit
 2.120262e-06
 5.357609e-07
 0.0
-79	196.966	1	solid 
+79    196.966    1    solid
 0.0
 -0.060362958082
 -0.11951571504

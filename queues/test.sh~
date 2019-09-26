@@ -1,5 +1,9 @@
 #!/bin/bash
-#PBS -l ppn={{cores}}
+{% set cpn = 36 %}
+{% set nodes = {{cores%((cores-1)//cpn + 1)}} %}
+
+#PBS -l nodes=1:ppn={{cores}}
+
 #PBS -N {{job_name}}
 {%- if memory_max %}
 #PBS -l pmem={{memory_max}}

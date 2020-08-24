@@ -6,12 +6,11 @@ cluster:
   - swalot
   - phanpy
   - golett
-  - delcatty
+  - kirlia
 queues:
   victini:  {cluster:  victini, cores_max: 3072, cores_min: 1, memory_max:  2450M, run_time_max: 259200, script: victini.sh}
   skitty:   {cluster:   skitty, cores_max: 2592, cores_min: 1, memory_max:  5120M, run_time_max: 259200, script: skitty.sh}
   swalot:   {cluster:   swalot, cores_max: 2560, cores_min: 1, memory_max:  6150M, run_time_max: 259200, script: swalot.sh}
   phanpy:   {cluster:   phanpy, cores_max:  384, cores_min: 1, memory_max: 20560M, run_time_max: 259200, script: phanpy.sh}
   golett:   {cluster:   golett, cores_max: 4656, cores_min: 1, memory_max:  2645M, run_time_max: 259200, script: golett.sh}
-  delcatty: {cluster: delcatty, cores_max: 1968, cores_min: 1, memory_max:  2645M, run_time_max: 259200, script: golett.sh}
-  
+  kirlia:   {cluster:   kirlia, cores_max:  576, cores_min: 1, memory_max: 20500M, run_time_max: 259200, script: kilria.sh}

@@ -1,5 +1,4 @@
 #!/bin/bash
 ml purge
-source $VSC_DATA_VO/vsc40685_apps/activate.sh
-ml load LAMMPS/patch_15May2019-intel-2018b
+ml load LAMMPS/patch_20Nov2019-intel-2019b
 exec lmp -in control.inp;

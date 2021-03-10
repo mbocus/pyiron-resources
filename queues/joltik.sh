@@ -1,12 +1,12 @@
 #!/bin/bash
 {%- set cpn = 32 %}
-{%- set gpn = 8 %}
-{%- set gpus = ((cores-1)//gpn) + 1 %}
+{%- set cpg = 8 %}
+{%- set gpus = ((cores-1)//cpg) + 1 %}
 {%- set nodes = ((cores-1)//cpn) + 1 %}
 {%- if  cores%nodes == 0 %}
-#PBS -l nodes={{nodes}}:ppn={{cores//nodes}}:gpus={{gpus}}
+#SBATCH --nodes={{nodes}} --ntasks={{cores}} --ntasks-per-node={{cores//nodes}} --gres=gpu:{{gpus}} --cpus-per-gpu={{cpg}}
 {%- else %}
-#PBS -l nodes={{nodes}}:ppn={{cores//nodes + 1}}:gpus={{gpus}}
+#SBATCH --nodes={{nodes}} --ntasks={{cores}} --ntasks-per-node={{cores//nodes +1}} --gres=gpu:{{gpus}} --cpus-per-gpu={{cpg}}
 {%- endif %}
 #PBS -N {{job_name}}
 {%- if memory_max %}

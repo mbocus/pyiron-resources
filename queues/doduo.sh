@@ -20,4 +20,4 @@ ORIGDIR=$PBS_O_WORKDIR
 WORKDIR=/local/$PBS_JOBID
 PBS_JOBDIR=$PBS_O_WORKDIR
 
-{{command}}
+{{ command }}

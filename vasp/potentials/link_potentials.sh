@@ -1,4 +1,4 @@
 #!/bin/bash
 
-ln -sf $VSC_DATA_VO/POTCAR_PBE ./potpaw_PBE
-ln -sf $VSC_DATA_VO/POTCAR_LDA ./potpaw 
+ln -sf /vsc-mounts/gent-data/vo/000/gvo00003/POTCAR_PBE ./potpaw_PBE
+ln -sf /vsc-mounts/gent-data/vo/000/gvo00003/POTCAR_LDA ./potpaw 

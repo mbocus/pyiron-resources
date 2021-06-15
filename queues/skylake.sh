@@ -9,7 +9,7 @@
 #PBS -N {{job_name}}
 #PBS -A {{account_id}}
 {%- if run_time_max %}
-#PBS -l walltime={{run_time_max//60}}
+#PBS -l walltime={{run_time_max}}
 {%- endif %}
 #PBS -V
 

@@ -1,5 +1,5 @@
 #!/bin/bash
 ulimit -s unlimited
 ml purge
-ml load VASP/5.4.4-intel-2018a-mt-20180516
+ml VASP/6.3.1-gomkl-2021a
 exec vasp

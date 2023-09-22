@@ -4,15 +4,15 @@ cluster:
   - victini
   - skitty
   - swalot
-  - kirlia
   - doduo
   - joltik
-  - slaking
+  - gallade
+  - donphan
 queues:
   victini:  {cluster:  victini, cores_max:  3456, cores_min: 1, memory_max:  2450M, run_time_max: 259200, script: victini.sh}
   skitty:   {cluster:   skitty, cores_max:  2592, cores_min: 1, memory_max:  5120M, run_time_max: 259200, script: skitty.sh}
   swalot:   {cluster:   swalot, cores_max:  2560, cores_min: 1, memory_max:  5950M, run_time_max: 259200, script: swalot.sh}
-  kirlia:   {cluster:   kirlia, cores_max:   576, cores_min: 1, memory_max: 20500M, run_time_max: 259200, script: kirlia.sh}
   doduo:    {cluster:    doduo, cores_max: 12288, cores_min: 1, memory_max:  2600M, run_time_max: 259200, script: doduo.sh}
   joltik:   {cluster:   joltik, cores_max:   320, cores_min: 1, memory_max:  8192M, run_time_max: 259200, script: joltik.sh}
-  slaking:  {cluster:  slaking, cores_max:     8, cores_min: 1, memory_max:  3400M, run_time_max: 259200, script: slaking.sh}
+  gallade:  {cluster:  slaking, cores_max:  2048, cores_min: 1, memory_max:  7344M, run_time_max: 259200, script: gallade.sh}
+  donphan:  {cluster:  donphan, cores_max:   576, cores_min: 1, memory_max: 20500M, run_time_max: 259200, script: donphan.sh}

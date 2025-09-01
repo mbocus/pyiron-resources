@@ -1,1 +1,0 @@
-randSpg.exe randspg.in
